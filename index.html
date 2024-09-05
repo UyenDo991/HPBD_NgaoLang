@@ -34,6 +34,9 @@
     }
 </style>
 <body>
+  <audio id="myAudio">
+    <source src="public/nhac.mp3" type="audio/mpeg">
+  </audio>
   <div class="bg-form">
     <div class="snow-canvas"></div>
     <div class="STARDUST2">
@@ -67,10 +70,17 @@
           </div>
         </div>
       </div>
-      <button class="btn-click">Nhấn vào đi</button>
+      <button onclick="enableAutoplay()" class="btn-click">Nhấn vào đi</button>
   </div>
   <script src="public/js/main_2.js"></script>
-  
-  <script src="public/js/particle.js"></script>
+  <script>
+    var x = document.getElementById("myAudio");
+    
+    function enableAutoplay() { 
+      x.autoplay = true;
+      x.load();
+    }
+    </script> 
+  <!-- <script src="public/js/particle.js"></script> -->
 </body>
 </html>
