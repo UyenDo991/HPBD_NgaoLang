@@ -16,9 +16,9 @@ const numSnowflakes = 100;
 //ảnh
 const mainPhoto  = document.querySelector('.img-main');
 // tự động nhảy ảnh
-let i = 0;
+/*let i = 0;
 let imageNames = ["qnhi1.jpg", "qnhi2.jpg", "qnhi3.jpg", "qnhi4.jpg", "qnhi5.jpg"]; // Thay đổi danh sách tên hình ảnh tại đây
-let slideshowTimeout;
+let slideshowTimeout;*/
 
 /*function slideshow() {
     if (i === imageNames.length) {

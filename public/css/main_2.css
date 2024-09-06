@@ -11,9 +11,9 @@
 }
 /* note */
 .note {
-  width: 40%;
-  top: 25%;
-  left: 15%;
+  width: 50%;
+  top: 20%;
+  left: 10%;
   z-index: 9;
   position: absolute;
   display: none;
@@ -138,8 +138,8 @@ img {
 	background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
 	z-index:9;
   position: absolute;
-  width: 500px;
-  height: 500px;
+  width: 470px;
+  height: 470px;
   background: #111845a6;
   box-sizing: border-box;
   overflow: hidden;
@@ -284,9 +284,9 @@ img {
 
   20%   { opacity: 1; left: 0%; top: 85%; display: block;}
 
-  40%   { opacity: 1; left: 80%; top: 85%; display: block;}
+  40%   { opacity: 1; left: 75%; top: 85%; display: block;}
 
-  60%   { opacity: 1; left: 80%; top: 10%; display: block;}
+  60%   { opacity: 1; left: 75%; top: 10%; display: block;}
 
   100%  { opacity: 1; left: 0%; top: 10%; display: block;}
 
